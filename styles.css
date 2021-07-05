@@ -1,0 +1,137 @@
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 98%;
+}
+.all_logo  {
+    position: relative;
+    height: 70pt;
+}
+.logo{
+    position: absolute;
+    left: 70pt;
+    top: 15pt;
+}
+.nomber {
+    color: #ff2222;
+    text-align: right;
+}
+.menu {
+    color: white;
+    font-size: 12pt;
+}
+.menu .aktiv {
+    background-color: #ff2222;
+}
+.menu td {
+    border-right: 2pt solid #ff2222;
+    padding: 12pt 5pt;
+    background-color: black;
+    text-align: center;
+}
+.menu td:last-child {
+    border-right: 0pt;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 98%;
+    font-size: 8pt;
+    height: 40pt;
+}
+li {
+    display: inline;
+    list-style-type: none;
+    border-bottom: 1px solid white;
+    margin: 0pt 10pt;
+}
+td a,
+li a {
+    color: white;
+    text-decoration: none;
+}
+.bread,
+.bread a {
+    color: #222222;
+}
+.kalkhr a {
+    color: #ff2222;
+    text-decoration: none;
+    font-size: 16pt;
+}
+.kalk h2 {
+    margin: 15pt 50pt;
+    color: #ff2222;
+
+}
+.kalk {
+    padding: 1pt 15pt;
+    max-width: 550pt;
+    background-color: #eeeeee;
+}
+.kalk table td {
+    padding: 5pt 15pt;
+}
+.kalk td:first-child {
+    text-align: right;
+}
+span {
+    color: green;
+    padding-left: 15pt;
+}
+#kalkulete {
+    background-color: rgb(39, 224, 39);
+    padding: 5pt;
+    border-radius: 8pt;
+}
+.input {
+    margin: 20pt 5pt;
+    border: 1pt solid red;
+}
+input[type=range] {
+    position: absolute;
+    -webkit-appearance: none;
+    border-radius: 5pt;
+    height: 5pt;
+    width: 170pt;
+    border: 1pt solid white;
+    background-color: black;
+    box-shadow: 0 0 2pt #222222;
+}
+input[type="range"]::-moz-range-thumb {
+    width: 6px;
+    height: 6px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type=range]::-moz-range-progress {
+	background-color: #22dd22;	
+}
+input[type="range"]::-webkit-slider-thumb {
+    width: 6px;
+    height: 6px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type=range]::-webkit-progress-bar {
+	background-color: #22dd22;	
+}
+.polz {
+    position: relative;
+    height: 20pt;
+    width: 175pt;
+}
+.curs1,
+.curs2 {
+    position: absolute;
+    font-size: 9pt;
+    color: #333;
+    bottom: 0;
+}
+.curs2 {
+    right: 0;
+}
